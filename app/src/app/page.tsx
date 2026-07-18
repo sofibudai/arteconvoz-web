@@ -117,7 +117,7 @@ export default function Home() {
         <Section
           id="que-hacemos"
           eyebrow="Qué hacemos"
-          title="Talleres de arte en escuelas públicas"
+          title="Todos los niños tienen una voz."
           className="bg-white/40"
         >
           <div className="flex flex-col gap-3 text-foreground-soft">

@@ -51,10 +51,13 @@ export const quienesSomos = {
 
 export const queHacemos = {
   intro: [
-    "Realizamos talleres y proyectos de arte en escuelas públicas primarias de la Provincia de Buenos Aires.",
-    "Elegimos trabajar en la escuela pública porque, en muchos casos, los contenidos de enseñanza artística no llegan efectivamente a los niños por falta de maestros de arte o de espacios específicos para desarrollar la materia.",
-    "Nuestros talleres proponen experiencias de creación, juego, exploración sensorial, expresión corporal, trabajo plástico, reutilización de materiales y construcción colectiva.",
-    "Los talleres son dictados por maestros artistas especialmente seleccionados y formados para eso, y están aprobados en cada distrito por las inspecciones que dependen del Ministerio de Educación.",
+    "Una voz que imagina, indaga, crea, siente y sueña.",
+    "Consideramos fundamental que todos encuentren el espacio para expresarla.",
+    "Creemos que el arte abre ese espacio.",
+    "Cuando un niño pinta, dibuja, construye, actúa o crea, no solo desarrolla una habilidad artística: aprende a descubrir quién es, a confiar en sus ideas, a escuchar otras miradas y a expresar aquello que muchas veces las palabras no alcanzan a decir.",
+    "Cada experiencia artística fortalece la creatividad, la sensibilidad, la curiosidad y el pensamiento crítico. Pero, sobre todo, ayuda a que cada niño encuentre su propia voz.",
+    "En Arte Con Voz trabajamos para que esa oportunidad llegue a más escuelas públicas, convencidos de que una infancia que puede expresarse es una infancia con mayores posibilidades de aprender, participar y transformar su realidad.",
+    "Porque cuando una voz encuentra el espacio para crecer, también crece toda la comunidad.",
   ],
   bloques: [
     {
