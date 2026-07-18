@@ -32,8 +32,11 @@ export default function Home() {
         <div className="px-6 py-10 sm:py-12">
           <div className="mx-auto grid max-w-5xl items-center gap-8 md:grid-cols-2 md:gap-12">
             <Reveal className="flex h-full items-center justify-center">
-              <p className="text-center font-heading text-3xl font-bold text-foreground sm:text-5xl">
-                {quienesSomos.intro[0]}
+              <p className="text-center font-heading text-lg font-bold text-foreground sm:text-2xl">
+                Arte Con Voz es una comunidad de personas unidas por la misma
+                convicción: que el arte y la educación tienen el poder de
+                transformar vidas. Trabajamos para que cada niño encuentre un
+                espacio donde crear, expresarse y descubrir su propia voz.
               </p>
             </Reveal>
 
