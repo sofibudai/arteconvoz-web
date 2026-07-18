@@ -12,18 +12,25 @@ export const nav = [
 
 export const quienesSomos = {
   intro: [
-    "Somos un grupo de personas que, unidas, formamos Arte Con Voz: una fundación dedicada al arte y a la educación.",
-    "A través de la integración del arte dentro del ámbito escolar, buscamos que los niños exploren, creen y se desarrollen tanto como alumnos como personas.",
-    "Creemos que el arte permite descubrir nuevas maneras de ver la vida, romper paradigmas y encontrar nuevas oportunidades. También creemos que la educación abre puertas y que aprender a convivir implica respetar a las personas, la comunidad y la naturaleza.",
+    "El arte y la educación son los pilares sobre los que construimos nuestra propuesta. Entendemos al arte como un lenguaje universal que despierta la creatividad, fortalece la capacidad de expresión y fomenta el pensamiento crítico. Es una herramienta que invita a imaginar nuevas posibilidades, desarrollar la sensibilidad y descubrir formas diferentes de relacionarse con uno mismo, con los demás y con el entorno.",
+    "La educación, por su parte, constituye el camino para ampliar oportunidades y promover una transformación social sostenible. Aspiramos a que cada niño desarrolle conocimientos, habilidades y valores que le permitan participar activamente en su comunidad, ejercer una ciudadanía responsable y construir vínculos basados en el respeto, la empatía y la cooperación.",
+    "Nuestro propósito es contribuir al desarrollo integral de niños y jóvenes, generando experiencias significativas que potencien sus talentos, fortalezcan su autoestima y les brinden herramientas para convertirse en protagonistas de su propio futuro y agentes de cambio en sus comunidades.",
   ],
-  mision:
-    "Acercar el arte a escuelas públicas para generar espacios de exploración, expresión y aprendizaje.",
+  porQueExistimos: [
+    "Crear oportunidades para que niños y jóvenes descubran y desarrollen su propia voz a través del arte.",
+    "Trabajamos junto a escuelas públicas primarias para generar experiencias que despierten la creatividad, fortalezcan la expresión, promuevan el pensamiento crítico y acompañen el desarrollo integral de cada estudiante, contribuyendo a comunidades más participativas, inclusivas y comprometidas.",
+  ],
+  vision: [
+    "Soñamos con una sociedad donde todos los niños y jóvenes tengan la oportunidad de encontrar su voz y desarrollar plenamente su potencial, sin que el contexto en el que nacen determine sus posibilidades.",
+    "Aspiramos a que el arte ocupe un lugar esencial en la educación, porque creemos que una escuela que promueve la creatividad, la expresión y el pensamiento crítico forma personas capaces de construir un futuro más justo, más humano y más solidario.",
+  ],
+  inspiracion: [
+    "La voz es mucho más que la palabra. Es la capacidad de expresar lo que sentimos, imaginar lo que aún no existe, hacer preguntas, compartir ideas y participar en la construcción del mundo que queremos habitar.",
+    "Creemos que el arte es uno de los caminos más poderosos para descubrir esa voz. Porque crea espacios donde cada niño puede experimentar sin miedo, equivocarse, volver a intentar y encontrar nuevas formas de expresarse.",
+    "Cuando un niño encuentra su voz, también descubre que sus ideas tienen valor, que puede crear junto a otros y que tiene algo único para aportar a su comunidad.",
+  ],
   mirada:
     "El arte no es solo una actividad plástica: es una forma de mirar, preguntar, imaginar futuro, hacer lugar a cada voz y construir comunidad.",
-  historia:
-    "Arte Con Voz trabaja desde 2009 en escuelas públicas, especialmente en escuelas de las islas de Tigre y San Fernando.",
-  paraQue:
-    "Para ayudar a quienes diseñan las políticas públicas a insertar a los niños en el único camino que creemos posible para vivir mejor: la educación por y en el arte, para abrir un puente entre el Estado y la sociedad y construir un camino de soporte mutuo entre los ciudadanos y el Estado.",
   resultados: [
     "Aumento de la calidad y tiempo de la concentración del grupo.",
     "Aumento en la calidad y originalidad de las producciones.",
@@ -35,13 +42,10 @@ export const quienesSomos = {
     "Incremento de las capacidades cognitivas.",
   ],
   equipo: [
-    { rol: "Presidente", nombre: "Claudia Iturralde de Atucha" },
-    { rol: "Coordinación Ejecutiva", nombre: "Mariana Sánchez de Puente" },
-    { rol: "Coordinación de Programas", nombre: "Patricia Page" },
-    {
-      rol: "Coordinación de Evaluación de Resultados",
-      nombre: "Patricia Frese, Verónica Brasesco",
-    },
+    { rol: "Presidente", nombre: "Claudia Iturralde" },
+    { rol: "Directora Ejecutiva", nombre: "Mariana Sánchez" },
+    { rol: "Coordinadora de Talleres", nombre: "Florencia Masjuán" },
+    { rol: "Coordinadora de Evaluación de Resultados", nombre: "Aida Frese" },
   ],
 };
 

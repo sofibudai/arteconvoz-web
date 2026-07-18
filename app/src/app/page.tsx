@@ -53,30 +53,47 @@ export default function Home() {
         </div>
 
         <Section id="quienes-somos" eyebrow="Quiénes somos" title="Arte y educación">
-          <div className="grid gap-8 md:grid-cols-2">
-            <div className="flex flex-col gap-3 text-foreground-soft">
-              {quienesSomos.intro.map((p) => (
-                <p key={p}>{p}</p>
-              ))}
+          <div className="flex flex-col gap-3 text-foreground-soft">
+            {quienesSomos.intro.map((p) => (
+              <p key={p}>{p}</p>
+            ))}
+          </div>
+
+          <div className="mt-10 grid gap-8 sm:grid-cols-3">
+            <div>
+              <h3 className="font-heading font-bold text-brand-blue">
+                ¿Por qué existimos?
+              </h3>
+              <div className="mt-2 flex flex-col gap-2">
+                {quienesSomos.porQueExistimos.map((p) => (
+                  <p key={p} className="text-foreground-soft">
+                    {p}
+                  </p>
+                ))}
+              </div>
             </div>
-            <div className="flex flex-col gap-4">
-              <div>
-                <h3 className="font-heading font-bold text-brand-blue">
-                  Nuestra misión
-                </h3>
-                <p className="text-foreground-soft">{quienesSomos.mision}</p>
+            <div>
+              <h3 className="font-heading font-bold text-brand-green">
+                Nuestra visión
+              </h3>
+              <div className="mt-2 flex flex-col gap-2">
+                {quienesSomos.vision.map((p) => (
+                  <p key={p} className="text-foreground-soft">
+                    {p}
+                  </p>
+                ))}
               </div>
-              <div>
-                <h3 className="font-heading font-bold text-brand-green">
-                  Nuestra mirada
-                </h3>
-                <p className="text-foreground-soft">{quienesSomos.mirada}</p>
-              </div>
-              <div>
-                <h3 className="font-heading font-bold text-brand-orange">
-                  Historia
-                </h3>
-                <p className="text-foreground-soft">{quienesSomos.historia}</p>
+            </div>
+            <div>
+              <h3 className="font-heading font-bold text-brand-orange">
+                Lo que nos inspira
+              </h3>
+              <div className="mt-2 flex flex-col gap-2">
+                {quienesSomos.inspiracion.map((p) => (
+                  <p key={p} className="text-foreground-soft">
+                    {p}
+                  </p>
+                ))}
               </div>
             </div>
           </div>
@@ -91,20 +108,6 @@ export default function Home() {
                 >
                   <p className="font-semibold">{persona.nombre}</p>
                   <p className="text-sm text-foreground-soft">{persona.rol}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div className="mt-8">
-            <h3 className="font-heading text-xl font-bold">
-              Resultados que observamos
-            </h3>
-            <ul className="mt-3 grid gap-2 sm:grid-cols-2">
-              {quienesSomos.resultados.map((r) => (
-                <li key={r} className="flex gap-2 text-sm text-foreground-soft">
-                  <span className="text-brand-green">✓</span>
-                  {r}
                 </li>
               ))}
             </ul>
