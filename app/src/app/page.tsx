@@ -117,7 +117,7 @@ export default function Home() {
         <Section
           id="que-hacemos"
           eyebrow="Qué hacemos"
-          title="Todos los niños tienen una voz."
+          title="Todos los niños tienen una voz"
           className="bg-white/40"
         >
           <div className="flex flex-col gap-3 text-foreground-soft">
@@ -150,24 +150,27 @@ export default function Home() {
 
         <ImpactShowcase
           eyebrow="Impacto"
-          title="Nuestro alcance"
+          title="El impacto"
+          intro={impacto.intro}
           blocks={[
             {
-              title: impacto.hechosConfirmados[0].label,
-              description: impacto.hechosConfirmados[0].detail,
+              ...impacto.bloques[0],
               image: "/images/galeria/dsc_0075.jpg",
             },
             {
-              title: impacto.hechosConfirmados[1].label,
-              description: dondeEstamos.texto,
+              ...impacto.bloques[1],
+              image: "/images/galeria/cimg5764.jpg",
+            },
+            {
+              ...impacto.bloques[2],
               image: "/images/galeria/escuela-12-may-jun-jul-2013-36.jpg",
             },
             {
-              title: "Lo que observamos en los talleres",
-              description: quienesSomos.resultados.slice(0, 4).join(" "),
-              image: "/images/galeria/cimg5764.jpg",
+              ...impacto.bloques[3],
+              image: "/images/galeria/cimg5788.jpg",
             },
           ]}
+          cierre={impacto.cierre}
         />
         <p className="px-6 pt-5 text-center text-sm italic text-foreground-soft">
           {impacto.textoPrudente} Estamos confirmando con la fundación las
@@ -177,7 +180,11 @@ export default function Home() {
         <PullQuoteBanner text={quienesSomos.mirada} />
 
         <Section id="donde-estamos" eyebrow="Dónde estamos" title="Territorio">
-          <p className="max-w-2xl text-foreground-soft">{dondeEstamos.texto}</p>
+          <div className="flex max-w-2xl flex-col gap-3 text-foreground-soft">
+            {dondeEstamos.textos.map((p) => (
+              <p key={p}>{p}</p>
+            ))}
+          </div>
           <ul className="mt-6 grid gap-2 sm:grid-cols-2">
             {dondeEstamos.escuelas.map((escuela) => (
               <li
@@ -193,7 +200,7 @@ export default function Home() {
         <Section
           id="galeria"
           eyebrow="Galería"
-          title="Un poco de lo que hacemos"
+          title="Cómo se expresan las voces"
           className="bg-white/40"
         >
           <GalleryBanner pool={galleryPool} />

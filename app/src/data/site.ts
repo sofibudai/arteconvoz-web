@@ -31,16 +31,6 @@ export const quienesSomos = {
   ],
   mirada:
     "El arte no es solo una actividad plástica: es una forma de mirar, preguntar, imaginar futuro, hacer lugar a cada voz y construir comunidad.",
-  resultados: [
-    "Aumento de la calidad y tiempo de la concentración del grupo.",
-    "Aumento en la calidad y originalidad de las producciones.",
-    "Mayor control de los impulsos verbales y conductuales.",
-    "Incremento en la capacidad de trabajo conjunto.",
-    "Mayor goce, entusiasmo y alegría por el trabajo.",
-    "Desarrollo de habilidades artísticas.",
-    "Aumento en la capacidad de interacción serena y afectiva.",
-    "Incremento de las capacidades cognitivas.",
-  ],
   equipo: [
     { rol: "Presidente", nombre: "Claudia Iturralde" },
     { rol: "Directora Ejecutiva", nombre: "Mariana Sánchez" },
@@ -83,26 +73,49 @@ export const queHacemos = {
   ],
 };
 
-// Impacto: hay dos fuentes con números distintos (ver docs/brief.md e
-// docs/decisiones.md). No mostramos cifras exactas hasta que la fundación
-// confirme cuál es la correcta — solo lo que ambas fuentes coinciden.
 export const impacto = {
-  textoPrudente:
-    "Cientos de niños participaron de los talleres de Arte Con Voz desde 2009, en escuelas públicas de las islas de Tigre y San Fernando.",
-  hechosConfirmados: [
-    { label: "Desde 2009", detail: "trabajando en escuelas públicas" },
+  intro: [
+    "No medimos únicamente las obras que se crean. Nos importa, sobre todo, lo que sucede en las personas mientras crean.",
+    "Cada experiencia artística deja una huella que va mucho más allá del aula.",
+    "En Arte Con Voz entendemos que el verdadero impacto no se mide solamente por las obras realizadas, sino por las capacidades, los vínculos y la confianza que los niños desarrollan durante el proceso creativo.",
+  ],
+  bloques: [
     {
-      label: "Islas de Tigre y San Fernando",
-      detail: "territorio donde se concentró el trabajo",
+      title: "Más confianza para expresarse",
+      description:
+        "Cuando encuentran un espacio donde sus ideas son escuchadas y valoradas, los niños comienzan a expresarse con mayor seguridad. Se animan a compartir lo que piensan, a hacer preguntas, a experimentar y a reconocer el valor de su propia mirada.",
+    },
+    {
+      title: "Más creatividad para imaginar nuevas posibilidades",
+      description:
+        "El arte invita a explorar sin miedo al error. Estimula la curiosidad, el pensamiento creativo y la capacidad de encontrar diferentes maneras de resolver desafíos, habilidades fundamentales para el aprendizaje y la vida.",
+    },
+    {
+      title: "Más capacidad para aprender junto a otros",
+      description:
+        "Crear también es escuchar, colaborar y construir colectivamente. En los talleres observamos vínculos más respetuosos, mayor disposición al trabajo en equipo y una participación más activa dentro del grupo.",
+    },
+    {
+      title: "Una experiencia que transforma la escuela",
+      description:
+        "Cuando el arte se incorpora a la vida escolar, también cambia la dinámica del aula. Los estudiantes sostienen la atención durante más tiempo, participan con mayor entusiasmo y desarrollan producciones cada vez más personales y originales.",
     },
   ],
-  // TODO: reemplazar por cifras reales (niños, escuelas, distritos, maestros
-  // artistas) una vez que la fundación confirme cuál de las dos fuentes vale.
+  cierre:
+    "Creemos que cuando una escuela abre espacios para que cada niño encuentre su voz, también fortalece la convivencia, el sentido de pertenencia y las oportunidades de aprendizaje para toda la comunidad educativa.",
+  // Números pendientes: hay dos fuentes con cifras distintas (ver docs/brief.md
+  // e docs/decisiones.md). No mostramos cifras exactas hasta que la fundación
+  // confirme cuál es la correcta.
+  textoPrudente:
+    "Cientos de niños participaron de los talleres de Arte Con Voz desde 2009, en escuelas públicas de las islas de Tigre y San Fernando.",
 };
 
 export const dondeEstamos = {
-  texto:
-    "Los talleres de Arte Con Voz se realizan en escuelas públicas primarias de la Provincia de Buenos Aires. La fundación ha trabajado especialmente en escuelas de las islas de Tigre y San Fernando, acompañando a comunidades educativas donde el acceso a la educación artística puede ser limitado.",
+  textos: [
+    "Trabajamos junto a escuelas públicas de la Provincia de Buenos Aires, con especial presencia en las islas de Tigre y San Fernando.",
+    "Estamos allí porque creemos que cada niño, viva donde viva, merece acceder al arte como parte de su educación y del proceso de descubrir su propia voz.",
+    "Cada escuela tiene una historia, una identidad y una comunidad que la hace única. Por eso construimos nuestro trabajo junto a docentes, directivos y familias, generando experiencias artísticas que se integran a la vida escolar y fortalecen los vínculos entre quienes la habitan.",
+  ],
   escuelas: [
     "Escuela Nº12 — Isla de Tigre",
     "Escuela Nº14 — Islas de San Fernando",

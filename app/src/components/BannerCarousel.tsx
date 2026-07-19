@@ -68,7 +68,9 @@ export default function BannerCarousel() {
             />
 
             <div
-              className={`${panelBox} flex flex-col justify-center gap-5 p-6 sm:p-10`}
+              className={`${panelBox} flex flex-col justify-center gap-5 p-6 sm:py-10 sm:pr-10 ${
+                isRight ? "sm:pl-[18%]" : "sm:pl-10"
+              }`}
             >
               <h2 className="max-w-[75%] font-heading text-2xl leading-tight font-bold text-foreground sm:max-w-[70%] sm:text-3xl lg:text-4xl">
                 {slide.title}

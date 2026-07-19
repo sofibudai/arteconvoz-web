@@ -12,11 +12,15 @@ type ImpactBlock = {
 export default function ImpactShowcase({
   eyebrow,
   title,
+  intro,
   blocks,
+  cierre,
 }: {
   eyebrow: string;
   title: string;
+  intro?: string[];
   blocks: ImpactBlock[];
+  cierre?: string;
 }) {
   return (
     <div>
@@ -27,9 +31,16 @@ export default function ImpactShowcase({
             <p className="mb-1.5 text-sm font-semibold tracking-wide text-brand-orange uppercase">
               {eyebrow}
             </p>
-            <h2 className="mb-8 text-4xl font-bold text-foreground sm:text-5xl">
+            <h2 className="mb-4 text-4xl font-bold text-foreground sm:text-5xl">
               {title}
             </h2>
+            {intro && intro.length > 0 && (
+              <div className="mb-8 flex flex-col gap-3 text-foreground-soft">
+                {intro.map((p) => (
+                  <p key={p}>{p}</p>
+                ))}
+              </div>
+            )}
           </Reveal>
 
           <div className="flex flex-col gap-10">
@@ -66,6 +77,14 @@ export default function ImpactShowcase({
               </Reveal>
             ))}
           </div>
+
+          {cierre && (
+            <Reveal delay={blocks.length * 0.1}>
+              <p className="mt-10 text-center font-heading text-lg font-bold text-foreground">
+                {cierre}
+              </p>
+            </Reveal>
+          )}
         </div>
       </section>
       <WaveDivider colorClassName="text-brand-violet/15" flip />
