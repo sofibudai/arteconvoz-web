@@ -18,7 +18,7 @@ export type BannerSlide = {
 
 export const bannerSlides: BannerSlide[] = [
   {
-    image: "/banner/taller-clase.jpg",
+    image: "/banner/taller-fieltro.jpg",
     title: "Cada taller es un espacio para crear, jugar y expresarse.",
     cta: { label: "Conocé nuestros proyectos", href: "#proyectos" },
     // Tinte pastel sólido (no opacidad) para que el panel no se mezcle con
@@ -27,14 +27,14 @@ export const bannerSlides: BannerSlide[] = [
     caption: "Chicos y chicas trabajando en clase durante un taller.",
   },
   {
-    image: "/banner/manos-pintadas.jpg",
+    image: "/banner/manos-pintadas-2026.jpg",
     title: "Mostramos lo que las manos y la imaginación construyen juntas.",
     cta: { label: "Ver la galería", href: "#galeria" },
     panelColorClassName: "text-[#CCE5ED]",
     caption: "Manos pintadas por los chicos, taller tras taller.",
   },
   {
-    image: "/banner/manos-imaginacion.jpg",
+    image: "/banner/exposicion-obras.jpg",
     title:
       "Desde 2009 llevamos arte a escuelas públicas de islas de Tigre y San Fernando.",
     cta: { label: "Conocer la fundación", href: "#quienes-somos" },
@@ -42,7 +42,7 @@ export const bannerSlides: BannerSlide[] = [
     caption: "Chicos mirando una exposición de sus propias obras.",
   },
   {
-    image: "/banner/collage-mascara.jpg",
+    image: "/banner/collage-corazones.jpg",
     title: "El arte como forma de mirar, preguntar e imaginar futuro.",
     // Va directo a Instagram (en pestaña nueva, ver BannerCarousel) para que
     // puedan escribir por mensaje privado — es el único canal de contacto
@@ -55,7 +55,7 @@ export const bannerSlides: BannerSlide[] = [
     panelSide: "right",
   },
   {
-    image: "/banner/creando-juntos.jpg",
+    image: "/banner/armando-canas.jpg",
     title: "Que cada niño explore, cree y encuentre su propia voz.",
     cta: { label: "Conocé nuestros proyectos", href: "#proyectos" },
     panelColorClassName: "text-[#FACBAC]",

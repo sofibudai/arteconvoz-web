@@ -1,21 +1,26 @@
-// Selección curada de una primera pasada sobre las 49 fotos en
-// public/images/galeria/ (ver docs/decisiones.md, "Assets de hero y galería
-// cargados, e interacción de galería definida"). Es un primer corte a mano,
-// no las 49 — el resto queda disponible en la carpeta para sumar o cambiar
-// más adelante.
+// Fotos nuevas enviadas por la fundación en 2026, reemplazando la selección
+// anterior. Las fotos viejas siguen en public/images/galeria/ por si hace
+// falta volver a usarlas, pero ya no forman parte de este pool.
 export const galleryPool = [
-  "cimg5764.jpg",
-  "cimg5788.jpg",
-  "7-5-13-9.jpg",
-  "7-5-13-4.jpg",
-  "img_5918.jpg",
-  "img_5940.jpg",
-  "img_6013.jpg",
-  "img_6055.jpg",
-  "dsc_0250.jpg",
-  "dsc_0075.jpg",
-  "escuela-12-may-jun-jul-2013-36.jpg",
-  "1-3.jpg",
-  "1-84.jpg",
-  "1-35.jpg",
+  "taller-estampado-madera.jpg",
+  "bloques-estampados.jpg",
+  "libro-dibujos-pared.jpg",
+  "fieltro-circulo.jpg",
+  "serigrafia-mesa.jpg",
+  "serigrafia-grupo.jpg",
+  "recorte-carpeta.jpg",
+  "serigrafia-corazon.jpg",
+  "filmacion-estencil-rojo.jpg",
+  "estructura-canas-escuela.jpg",
+  "circulo-naturaleza.jpg",
+  "dibujo-estrella-roja.jpg",
+  "hongo-y-rama.jpg",
+  "pintando-canas.jpg",
+  "flores-amarillas.jpg",
+  "cana-hueca.jpg",
+  "pasando-cana.jpg",
+  "estudio-hoja.jpg",
+  "movil-canas-puerta.jpg",
+  "canas-secando-pared.jpg",
+  "hojas-comparadas.jpg",
 ].map((file) => `/images/galeria/${file}`);

@@ -25,7 +25,7 @@ export const projects: Project[] = [
     description:
       "Proyecto junto a RISD sobre construcción colectiva, intercambio de saberes, cuidado y comunidad. Cobijo es nido, es cuidar, sembrar preguntas, dejar huella e imaginar futuro.",
     tags: ["comunidad", "cuidado", "futuro"],
-    image: "/images/proyectos/cobijo.jpg",
+    image: "/images/proyectos/cobijo-canas.jpg",
   },
   {
     slug: "estrellas",
@@ -34,7 +34,7 @@ export const projects: Project[] = [
     description:
       "Una invitación a imaginar, crear y conocer el cielo, las estrellas, las constelaciones y sus misterios.",
     tags: ["imaginación", "cielo", "exploración"],
-    image: "/images/proyectos/estrellas.jpg",
+    image: "/images/proyectos/estrellas-cielo.jpg",
   },
   {
     slug: "conquistando-mi-mundo",
@@ -42,7 +42,7 @@ export const projects: Project[] = [
     description:
       "Un proyecto para conocer el planeta Tierra desde el entorno cercano y crear conciencia sobre su cuidado.",
     tags: ["naturaleza", "territorio", "cuidado"],
-    image: "/images/proyectos/conquistando-mi-mundo.jpg",
+    image: "/images/proyectos/conquistando-mi-mundo-hojas.jpg",
   },
   {
     slug: "circo",
@@ -51,7 +51,7 @@ export const projects: Project[] = [
     description:
       "Juegos, expresión corporal y creación colectiva para reunir, acercar y contener.",
     tags: ["juego", "cuerpo", "comunidad"],
-    image: "/images/proyectos/circo.jpg",
+    image: "/images/proyectos/circo-canas.jpg",
   },
   {
     slug: "apropiacion-imaginarios",
@@ -59,7 +59,7 @@ export const projects: Project[] = [
     description:
       "Un trabajo sobre imágenes, relatos y símbolos vinculados al entorno de los niños: escuela, familia, docentes, río, isla y comunidad.",
     tags: ["identidad", "territorio", "cultura"],
-    image: "/images/proyectos/apropiacion-imaginarios.jpg",
+    image: "/images/proyectos/apropiacion-imaginarios-serigrafia.jpg",
   },
   {
     slug: "contornear-y-ser-contorneado",
@@ -67,7 +67,7 @@ export const projects: Project[] = [
     description:
       "Una experiencia con siluetas corporales para explorar identidad, autopercepción e imaginación.",
     tags: ["identidad", "cuerpo", "expresión"],
-    image: "/images/proyectos/contornear-y-ser-contorneado.jpg",
+    image: "/images/proyectos/contornear-silueta.jpg",
   },
   {
     slug: "luz-y-oscuridad",
@@ -75,7 +75,7 @@ export const projects: Project[] = [
     description:
       "Experiencias sensoriales de experimentación y juego para mirar desde diferentes ángulos, sin reglas rígidas preestablecidas.",
     tags: ["sensibilidad", "percepción", "juego"],
-    image: "/images/proyectos/luz-y-oscuridad.jpg",
+    image: "/images/proyectos/luz-y-oscuridad-serigrafia.jpg",
   },
   {
     slug: "mascaradas",
@@ -84,6 +84,6 @@ export const projects: Project[] = [
     description:
       "Máscaras, música, movimiento y trabajo plástico para exteriorizar, comunicar y compartir con otros. Alentó la reutilización de material descartable en actividades plásticas y lúdicas.",
     tags: ["expresión", "comunidad", "reutilización"],
-    image: "/images/proyectos/mascaradas.jpg",
+    image: "/images/proyectos/mascaradas-pajaro.jpg",
   },
 ];

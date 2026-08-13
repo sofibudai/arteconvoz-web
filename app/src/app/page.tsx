@@ -155,19 +155,19 @@ export default function Home() {
           blocks={[
             {
               ...impacto.bloques[0],
-              image: "/images/galeria/dsc_0075.jpg",
+              image: "/images/galeria/pintando-con-pincel.jpg",
             },
             {
               ...impacto.bloques[1],
-              image: "/images/galeria/cimg5764.jpg",
+              image: "/images/galeria/posibilidades.jpg",
             },
             {
               ...impacto.bloques[2],
-              image: "/images/galeria/escuela-12-may-jun-jul-2013-36.jpg",
+              image: "/images/galeria/juntos.jpg",
             },
             {
               ...impacto.bloques[3],
-              image: "/images/galeria/cimg5788.jpg",
+              image: "/images/galeria/atencion.jpg",
             },
           ]}
           cierre={impacto.cierre}

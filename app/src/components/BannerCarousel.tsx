@@ -85,18 +85,6 @@ export default function BannerCarousel() {
                 {slide.cta.label}
               </Link>
             </div>
-
-            {slide.caption && (
-              <p
-                className={`absolute right-4 bottom-4 left-4 z-20 text-sm text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.6)] sm:max-w-xs ${
-                  isRight
-                    ? "sm:right-auto sm:left-10 sm:text-left"
-                    : "sm:right-10 sm:left-auto sm:text-right"
-                }`}
-              >
-                {slide.caption}
-              </p>
-            )}
           </div>
         );
       })}
