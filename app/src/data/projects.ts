@@ -42,7 +42,7 @@ export const projects: Project[] = [
     description:
       "Un proyecto para conocer el planeta Tierra desde el entorno cercano y crear conciencia sobre su cuidado.",
     tags: ["naturaleza", "territorio", "cuidado"],
-    image: "/images/proyectos/conquistando-mi-mundo-hojas.jpg",
+    image: "/images/proyectos/conquistando-mi-mundo-tierra.jpg",
   },
   {
     slug: "circo",
@@ -59,7 +59,7 @@ export const projects: Project[] = [
     description:
       "Un trabajo sobre imágenes, relatos y símbolos vinculados al entorno de los niños: escuela, familia, docentes, río, isla y comunidad.",
     tags: ["identidad", "territorio", "cultura"],
-    image: "/images/proyectos/apropiacion-imaginarios-serigrafia.jpg",
+    image: "/images/proyectos/apropiacion-imaginarios-recorte.jpg",
   },
   {
     slug: "contornear-y-ser-contorneado",
