@@ -44,7 +44,7 @@ export default function Home() {
               <video
                 controls
                 preload="metadata"
-                className="aspect-[720/742] w-full rounded-3xl bg-foreground/5 object-cover"
+                className="aspect-square w-full rounded-3xl bg-foreground/5 object-cover"
               >
                 <source src="/videos/cobijo_arteconvoz_web.mp4" type="video/mp4" />
               </video>
@@ -172,9 +172,11 @@ export default function Home() {
           ]}
           cierre={impacto.cierre}
         />
-        <p className="px-6 pt-5 text-center text-sm italic text-foreground-soft">
-          {impacto.textoPrudente} Estamos confirmando con la fundación las
-          cifras exactas de escuelas, niños y maestros artistas alcanzados.
+        <p className="mx-auto max-w-4xl px-6 pt-5 text-center text-sm italic text-foreground-soft">
+          {impacto.textoPrudente}
+          <br />
+          Estamos confirmando con la fundación las cifras exactas de
+          escuelas, niños y maestros artistas alcanzados.
         </p>
 
         <PullQuoteBanner text={quienesSomos.mirada} />
@@ -185,16 +187,6 @@ export default function Home() {
               <p key={p}>{p}</p>
             ))}
           </div>
-          <ul className="mt-6 grid gap-2 sm:grid-cols-2">
-            {dondeEstamos.escuelas.map((escuela) => (
-              <li
-                key={escuela}
-                className="rounded-lg border border-foreground/10 bg-white/40 px-4 py-2 text-sm"
-              >
-                {escuela}
-              </li>
-            ))}
-          </ul>
         </Section>
 
         <Section

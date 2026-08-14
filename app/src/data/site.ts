@@ -30,7 +30,7 @@ export const quienesSomos = {
     "Cuando un niño encuentra su voz, también descubre que sus ideas tienen valor, que puede crear junto a otros y que tiene algo único para aportar a su comunidad.",
   ],
   mirada:
-    "El arte no es solo una actividad plástica: es una forma de mirar, preguntar, imaginar futuro, hacer lugar a cada voz y construir comunidad.",
+    "El arte es una forma de mirar, preguntar, imaginar futuro, hacer lugar a cada voz y construir comunidad.",
   equipo: [
     { rol: "Presidente", nombre: "Claudia Iturralde" },
     { rol: "Directora Ejecutiva", nombre: "Mariana Sánchez" },

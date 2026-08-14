@@ -2,9 +2,9 @@ import Reveal from "@/components/Reveal";
 
 export default function PullQuoteBanner({ text }: { text: string }) {
   return (
-    <div className="overflow-hidden px-6 py-10 sm:py-14">
+    <div className="overflow-hidden px-6 pt-16 pb-4 sm:pt-20 sm:pb-6">
       <Reveal>
-        <p className="mx-auto max-w-4xl -rotate-1 text-center font-heading text-3xl font-bold text-foreground sm:text-5xl">
+        <p className="animate-float mx-auto max-w-2xl text-center font-heading text-2xl font-bold text-foreground sm:text-4xl">
           {text}
         </p>
       </Reveal>

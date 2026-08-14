@@ -43,7 +43,7 @@ export default function ImpactShowcase({
             )}
           </Reveal>
 
-          <div className="flex flex-col gap-10">
+          <div className="flex flex-col gap-4">
             {blocks.map((block, index) => (
               <Reveal
                 key={block.title}
